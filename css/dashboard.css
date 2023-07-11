@@ -1,0 +1,101 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.card:hover {
+    background-color: #26a140;
+}
+
+.icon .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.icon {
+    margin-bottom: 200px;
+    font-size: 37px;
+}
+
+.text {
+    position: fixed;
+}
+
+.icon i{
+    background-color: #5ecc67;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 70%;
+    border: 2px solid #faf6f6;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.text p {
+    font-size: 16px;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #1189ec;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

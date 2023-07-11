@@ -1,0 +1,33 @@
+[
+    {
+      "icon_name": "team",
+      "name": "Users",
+      "count": "256"
+    },
+    {
+      "icon_name": "money-dollar-circle",
+      "name": "Revenue",
+      "count": "$32,384"
+    },
+    {
+      "icon_name": "notification-3",
+      "name": "Alerts",
+      "count": "9 New"
+    },
+    {
+      "icon_name": "stack",
+      "name": "Tasks",
+      "count": "10"
+    },
+    {
+      "icon_name": "shopping-cart-2",
+      "name": "Orders",
+      "count": "24"
+    },
+    {
+      "icon_name": "chat-3",
+      "name": "Mentions",
+      "count": "96"
+    }
+  ]
+  
